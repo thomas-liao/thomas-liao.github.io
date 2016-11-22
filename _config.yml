@@ -16,14 +16,14 @@ style: styles-6
 
 #Profile information
 name: Minjian Liu
-tagline: Embedded Systems Engineer
+#tagline: Embedded Systems Engineer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: minjian.liu@anu.edu.au
-phone: +8618925716126
-website: minjian.github.io #do not add http://
-linkedin: Minjian Liu
+phone: (+86)18925716126
+linkedin: minjian
 github: Minjian
+#website: minjian.github.io #do not add http://
 #twitter: '@twittername'
 
