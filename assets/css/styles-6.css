@@ -100,7 +100,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 28px;
+  padding: 30px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -128,6 +128,7 @@ p {
 }
 .sidebar-wrapper .education-container .time {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
   font-weight: 500;
   margin-bottom: 0px;
 }
