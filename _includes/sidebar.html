@@ -1,22 +1,22 @@
-<!-- Use icons from fontawesome when you are adding new item in the contact list  -->             
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->
 
-                 
+
      <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
                 <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
                 <!--<h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>-->
             </div><!--//profile-container-->
-            
+
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                   
+
                    {% if site.email %}
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
                     {% else %}
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
                     {% endif %}
-                    
+
                     {% if site.phone %}
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
                     {% else %}
@@ -34,7 +34,7 @@
                     {% else %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/sharath-kumar-87669956" target="_blank">linkedin.com/in/sharathdt</a></li>
                     {% endif %}
-                    
+
                     {% if site.github %}
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
                     {% else %}
@@ -51,5 +51,6 @@
             </div><!--//contact-container-->
            {% include education.html %}
            {% include language.html %}
-            
+           {% include skills_sidebar.html %}
+
         </div><!--//sidebar-wrapper-->
