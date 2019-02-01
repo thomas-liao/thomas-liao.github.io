@@ -1,7 +1,7 @@
 
 title: Minjian Liu
-url: 'https://github.com/Minjian/'
-baseurl: '/Minjian.github.io' #change it according to your repository name
+url: 'https://github.com/thomas-liao/'
+baseurl: '/thomas-liao.github.io' #change it according to your repository name
 
 
 # Enable one of these styles by removing #
@@ -15,13 +15,13 @@ style: styles-6
 
 
 #Profile information
-name: Minjian Liu
+name: Tianshi Liao
 #tagline: Embedded Systems Engineer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: minjian.liu@jhu.edu
-phone: (+1) 410-522-8408
+email: tliao4@jhu.edu
+phone: (+1) 978-885-8886
 linkedin: minjian
 github: Minjian
 #website: minjian.github.io #do not add http://
